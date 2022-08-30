@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="MvcProduct" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFr-o3-tbT" customClass="DesignView" customModule="Shooping" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="70"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Subtraction 25" translatesAutoresizingMaskIntoConstraints="NO" id="Rfd-CZ-hD7">
+                            <rect key="frame" x="136.5" y="11.5" width="141" height="47"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="47" id="5wI-0E-Ytj"/>
+                                <constraint firstAttribute="width" constant="141" id="Lge-Za-w68"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ivh-ia-Acg">
+                            <rect key="frame" x="327" y="19.5" width="67" height="31"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="67" id="4eb-bL-a3q"/>
+                                <constraint firstAttribute="height" constant="31" id="CAc-r0-7RC"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="slider.horizontal.3" catalog="system"/>
+                            <connections>
+                                <action selector="SlidButton:" destination="-1" eventType="touchUpInside" id="Uqz-yw-x0D"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                    <constraints>
+                        <constraint firstItem="Rfd-CZ-hD7" firstAttribute="centerY" secondItem="SFr-o3-tbT" secondAttribute="centerY" id="8Ua-x0-Jaa"/>
+                        <constraint firstItem="Ivh-ia-Acg" firstAttribute="centerY" secondItem="SFr-o3-tbT" secondAttribute="centerY" id="QWK-sw-XLd"/>
+                        <constraint firstAttribute="trailing" secondItem="Ivh-ia-Acg" secondAttribute="trailing" constant="20" id="Xze-g5-9f9"/>
+                        <constraint firstAttribute="height" constant="70" id="p1h-Sx-80Q"/>
+                        <constraint firstItem="Rfd-CZ-hD7" firstAttribute="centerX" secondItem="SFr-o3-tbT" secondAttribute="centerX" id="t7j-ON-ukL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="SFr-o3-tbT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Cgx-Wj-Tpn"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SFr-o3-tbT" secondAttribute="trailing" id="WyI-WC-1dq"/>
+                <constraint firstItem="SFr-o3-tbT" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="hMj-1L-6m5"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="97"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Subtraction 25" width="141" height="66"/>
+        <image name="slider.horizontal.3" catalog="system" width="128" height="100"/>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

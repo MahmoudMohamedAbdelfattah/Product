@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (5.6.1)
+  - CountryPickerView (3.3.0)
+  - IQKeyboardManagerSwift (6.5.10)
+  - Kingfisher (7.3.0)
+  - ReachabilitySwift (5.0.0)
+  - Realm (10.28.2):
+    - Realm/Headers (= 10.28.2)
+  - Realm/Headers (10.28.2)
+  - RealmSwift (10.28.2):
+    - Realm (= 10.28.2)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - CountryPickerView
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - ReachabilitySwift
+  - RealmSwift
+  - SwiftMessages
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CountryPickerView
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - SwiftMessages
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  CountryPickerView: 6322ada32a80b0cd721b0267282a5c24f406f263
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  Kingfisher: cdb1189a9223b1bc028816bd47c8b8101a58831c
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Realm: e617c54ad0f566b3d0f6a2abae7010de05f252ac
+  RealmSwift: 8a516a8759d80d52ebcec1ff1076f5f5159f98b2
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: d228d062203f9f87c7049774817a9f7e99e95c68
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "neon-blue-pink-curvy-futuristic-abstract-galaxy-ultraviolet-neuron-lines-laser-scientific-sci-fi-high-resolution-black-background-163450427.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "neon-blue-pink-curvy-futuristic-abstract-galaxy-ultraviolet-neuron-lines-laser-scientific-sci-fi-high-resolution-black-background-163450427@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "neon-blue-pink-curvy-futuristic-abstract-galaxy-ultraviolet-neuron-lines-laser-scientific-sci-fi-high-resolution-black-background-163450427@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
